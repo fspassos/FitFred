@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>FitFred</title>
+<meta name="theme-color" content="#0D0D0F">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<meta name="apple-mobile-web-app-title" content="FitFred">
+<meta name="format-detection" content="telephone=no">
+<link rel="manifest" href="manifest.webmanifest">
+<link rel="apple-touch-icon" href="icons/icon-180.png">
+<link rel="icon" href="icons/icon-192.png">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <main id="tela" aria-live="polite"></main>
+
+  <div id="descanso" class="descanso" hidden>
+    <div class="descanso-barra"><span id="descanso-progresso"></span></div>
+    <div class="descanso-linha">
+      <div>
+        <div class="descanso-rotulo" id="descanso-rotulo">Descanso</div>
+        <div class="descanso-tempo" id="descanso-tempo">0:60</div>
+      </div>
+      <div class="descanso-acoes">
+        <button class="btn-sec" data-acao="descanso-mais">+15 s</button>
+        <button class="btn-sec" data-acao="descanso-pular">Pular</button>
+      </div>
+    </div>
+  </div>
+
+  <nav class="abas" id="abas">
+    <button data-aba="hoje" class="aba"><span class="aba-ico">●</span>Hoje</button>
+    <button data-aba="corpo" class="aba"><span class="aba-ico">◍</span>Corpo</button>
+    <button data-aba="evolucao" class="aba"><span class="aba-ico">↗</span>Evolução</button>
+    <button data-aba="historico" class="aba"><span class="aba-ico">≡</span>Histórico</button>
+    <button data-aba="ajustes" class="aba"><span class="aba-ico">⚙&#xFE0E;</span>Ajustes</button>
+  </nav>
+
+  <div id="modal" class="modal" hidden>
+    <div class="modal-caixa" role="dialog" aria-modal="true">
+      <h2 id="modal-titulo"></h2>
+      <p id="modal-texto"></p>
+      <div class="modal-acoes">
+        <button class="btn-sec" id="modal-nao">Cancelar</button>
+        <button class="btn" id="modal-sim">OK</button>
+      </div>
+    </div>
+  </div>
+
+  <div id="aviso" class="aviso" hidden></div>
+  <input type="file" id="arquivo-importar" accept=".json,application/json" hidden>
+
+  <script src="ficha.js"></script>
+  <script src="corpo.js"></script>
+  <script src="graficos.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>

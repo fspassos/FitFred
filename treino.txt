@@ -1,0 +1,51 @@
+#TREINOS
+4
+
+#TREINO_A
+Leg Press 45 + Supino Inclinado com Halteres
+Agachamento Goblet com Halter + Elevacao Lateral com Halteres
+Cadeira Extensora + Triceps Frances com Halter
+Supino Vertical Maquina
+Abdominal Supra Solo
+
+#TREINO_B
+Puxada Aberta no Pulley + Stiff com Halteres
+Cadeira Flexora + Remada Unilateral Serrote com Halter
+Rosca Direta Polia Baixa
+Panturrilha no Leg Horizontal
+Abdominal Infra Solo
+
+#TREINO_C
+Agachamento Sumo com Halter + Subida no Banco com Halteres
+Desenvolvimento com Halteres + Cadeira Abdutora
+Crucifixo Reto com Halteres + Elevacao Lateral Sentado com Halteres
+Triceps Barra Polia
+Prancha Isometrica
+
+#TREINO_D
+Remada Curvada com Halteres + Cadeira Flexora Unilateral
+Puxada Supinada no Pulley
+Cadeira Adutora + Rosca Martelo com Halter
+Panturrilha Sentado Maquina
+Abdominal Obliquo Solo
+
+#FASES
+4
+
+#REPETICOES
+3x12
+3x10
+4x8
+3x15
+
+#DESCANSO
+90
+75
+75
+60
+
+#SESSOES
+8
+12
+16
+16
